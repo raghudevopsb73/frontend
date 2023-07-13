@@ -2,5 +2,5 @@
 
 env.cibuild = "nginx"
 env.component = "frontend"
-nginx()
+mainci()
 
