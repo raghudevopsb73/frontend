@@ -6,7 +6,7 @@ component: frontend
 
 ingress:
   enabled: true
-  className: ""
+  className: "nginx"
   annotations: {}
   hosts:
     - host: www.rdevopsb73.online
