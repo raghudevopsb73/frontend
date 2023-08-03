@@ -3,3 +3,14 @@ image:
 
 port: 80
 component: frontend
+
+ingress:
+  enabled: true
+  className: ""
+  annotations: {}
+  hosts:
+    - host: www.rdevopsb73.online
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+  tls: []
