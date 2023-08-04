@@ -13,4 +13,5 @@ ingress:
       paths:
         - path: /
           pathType: ImplementationSpecific
+          component: frontend
   tls: []
