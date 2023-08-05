@@ -22,5 +22,5 @@ serviceAccount:
   annotations:
     eks.amazonaws.com/role-arn: arn:aws:iam::739561048503:role/eks-prod-ssm-pm-role
 
-PARAMETERS: ""
+PARAMETERS: "CATALOGUE_URL,roboshop.prod.frontend.catalogue_url"
 
