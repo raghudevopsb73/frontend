@@ -16,3 +16,11 @@ ingress:
           component: frontend
           port: 80
   tls: []
+
+serviceAccount:
+  create: true
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::739561048503:role/eks-prod-ssm-pm-role
+
+PARAMETERS: "DOCUMENTDB,roboshop.prod.catalogue.mongo MONGO_URL,roboshop.prod.catalogue.mongo_url"
+
