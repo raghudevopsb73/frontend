@@ -24,3 +24,11 @@ serviceAccount:
 
 PARAMETERS: "CATALOGUE_URL,roboshop.prod.frontend.catalogue_url"
 
+
+resources:
+   limits:
+     cpu: 500m
+     memory: 512Mi
+   requests:
+     cpu: 500m
+     memory: 512Mi
